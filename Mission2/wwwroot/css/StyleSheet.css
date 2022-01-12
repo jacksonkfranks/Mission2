@@ -1,0 +1,25 @@
+﻿/*my css stuff. Don't know a whole lot, just doing what I can! Tried to make the labels and inputs a little bit nicer.*/
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    text-align: left;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 30px;
+    flex: 50px;
+    margin-left: 10px;
+}
+
+li {
+    list-style-type: none;
+}

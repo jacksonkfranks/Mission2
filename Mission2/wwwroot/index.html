@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>JFranks</title>
+
+    <!--bring in my css and bootstrap-->
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        img {
+            max-width: 34%;
+            height: auto;
+        }
+    </style>
+
+    <!--include icon in the tab next to title-->
+    <link rel="shortcut icon" href="img/favicon.ico" /> 
+</head>
+<body>
+    <!--fulfill requirements of assignment, include picture, paragraph, job pursuits, grade calc-->
+    <h1>Jackson, doing what he loves: Hiking!</h1>
+    <img id="picFranks" src="img/20210828_100611 (1).jpg" />
+    <h2>What I hope to get out of IS 413:</h2>
+    <p>
+        I hope to achieve better coding skills to enhance my chances of helping others solve business problems.
+        I want to be able to figure more things out on my own and work on being more independent at solving
+        complex problems. I want to especially learn how to increase security measures because I will be working
+        in cybersecurity in the future.
+    </p>
+    <br />
+    <h2>Top 3 Jobs I am interested in pursuing:</h2>
+    <ul>
+        <li>Cybersecurity Advisor</li>
+        <li>Small business owner</li>
+        <li>Farmer</li>
+    </ul>
+
+    <!--grade calculator form!-->
+    <h2>Grade Calculator</h2><br />
+    <form>
+        <label>Average Grade on Assignments:</label>
+        <input id="assign" type="number" min="0" max="100" value="100" /><br />
+        <label>Group Project Grade:</label>
+        <input id="project" type="number" min="0" max="100" value="100" /><br />
+        <label>Average Grade on Quizzes:</label>
+        <input id="quiz" type="number" min="0" max="100" value="100"><br />
+        <label>Average Grade on Exams:</label>
+        <input id="exam" type="number" min="0" max="100" value="100"><br />
+        <label>Grade on INTEX:</label>
+        <input id="intex" type="number" min="0" max="100" value="100"><br />
+        <input id="btnSend" type="button" value="Final Letter Grade" />
+    </form>
+
+    <!--include bootstrap, jquery, and javascript file to access-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/JavaScript.js"></script>
+
+</body>
+</html>
